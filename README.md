@@ -105,3 +105,6 @@ test_unittest_simplecalc.py::SimpleTest::test_subtract PASSED           [100%]
 
 ========================= 4 passed in 0.04s =========================
 ```
+
+#### Summary
+- TDD helps reduce unexpected errors

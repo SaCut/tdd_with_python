@@ -26,3 +26,4 @@ class SimpleTest(unittest.TestCase):
 	def test_divide(self):
 		self.assertEqual(self.calc.divide(12, 3), 4)
 
+# pytest looks for any file with name including 'test*.py'

@@ -79,3 +79,29 @@ class SimpleCalc:
     def divide(self, value1, value2):
         return value1 / value2
 ```
+
+- Running the test with `python3 -m unittest discover -v`, output:
+```
+test_add (test_unittest_simplecalc.SimpleTest) ... ok
+test_divide (test_unittest_simplecalc.SimpleTest) ... ok
+test_multiply (test_unittest_simplecalc.SimpleTest) ... ok
+test_subtract (test_unittest_simplecalc.SimpleTest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+```
+- or with `python3 -m pytest -v`:
+```
+======================================================== test session starts ========================================================
+platform linux -- Python 3.8.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /home/saverio/Projects/sparta_global/eng84/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/saverio/Projects/sparta_global/tdd_with_python
+collected 4 items                                                                                                                   
+
+test_unittest_simplecalc.py::SimpleTest::test_add PASSED                                                                      [ 25%]
+test_unittest_simplecalc.py::SimpleTest::test_divide PASSED                                                                   [ 50%]
+test_unittest_simplecalc.py::SimpleTest::test_multiply PASSED                                                                 [ 75%]
+test_unittest_simplecalc.py::SimpleTest::test_subtract PASSED                                                                 [100%]
+
+========================================================= 4 passed in 0.04s =========================================================
+```

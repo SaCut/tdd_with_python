@@ -87,3 +87,35 @@ As a user, I can user the run factory with water and flour and get naan.
 * code does not break
 * code has exit condition
 * DOD if followed
+
+#### Solution
+- We create a file to test the results from the factory:
+* importing the necessary modules:
+```python
+from bakery_section import Factory
+import unittest
+```
+* writing the code to test the factory
+```python
+bread_quality = "good"
+
+class BreadTest(unittest.TestCase):
+
+	grandma = Factory() # makes an instance of the factory
+	
+	def test_bread(self): # tests the quality of the bread
+		self.assertTrue(self.grandma.run_factory(bread_quality))
+```
+* then we make the factory itself:
+```python
+class Factory():
+
+	def run_factory(self, bread_quality):
+
+		# checks the quality of the product
+		if bread_quality == "good":
+			return True
+		# if it's not good enough
+		else:
+			return False
+```

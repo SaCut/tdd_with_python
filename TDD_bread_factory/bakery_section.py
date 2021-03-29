@@ -1,4 +1,3 @@
-
 class Factory():
 
 	def run_factory(self, bread_quality):

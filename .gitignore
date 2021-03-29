@@ -4,3 +4,6 @@ venv/
 
 # testing file
 rndm.py
+
+# other
+__pycache__

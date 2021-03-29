@@ -1,5 +1,8 @@
 # TDD with Python
 
+#### What is TDD?
+- TDD is a software development process relying on software requirements being converted to test cases before software is fully developed
+
 #### Why should we use TDD?
 - TDD is widely used and is the cheapest way to test the code or implement test driven development
 

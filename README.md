@@ -13,7 +13,7 @@
 - Refactor the code for next test `BLUE`
 - This continues until all the test have successfully passed 
 
-- ![img](https://testingcircle.sharepoint.com/sites/BusinessMaster/Shared%20Documents/Engineering%2084%20DevOps/TDD.png)
+- ![img](https://ramiresnascimento.files.wordpress.com/2017/08/tdd.png)
 
 There are also numerous assertions that are inherited from the TestCase base class, assertions are everything in testing...
 

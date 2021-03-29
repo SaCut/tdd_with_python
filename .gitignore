@@ -7,3 +7,5 @@ rndm.py
 
 # other
 __pycache__
+.pytest_cache
+TDD_structure.jpg

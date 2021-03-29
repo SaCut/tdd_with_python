@@ -13,7 +13,7 @@
 - Refactor the code for next test `BLUE`
 - This continues until all the test have successfully passed 
 
-- ![img](https://ramiresnascimento.files.wordpress.com/2017/08/tdd.png)
+- ![img](https://github.com/SaCut/tdd_with_python/blob/main/TDD_structure.jpg?raw=true)
 
 There are also numerous assertions that are inherited from the TestCase base class, assertions are everything in testing...
 

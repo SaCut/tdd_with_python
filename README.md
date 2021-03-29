@@ -98,10 +98,10 @@ cachedir: .pytest_cache
 rootdir: /home/saverio/Projects/sparta_global/tdd_with_python
 collected 4 items                                                                                                                   
 
-test_unittest_simplecalc.py::SimpleTest::test_add PASSED                                                                      [ 25%]
-test_unittest_simplecalc.py::SimpleTest::test_divide PASSED                                                                   [ 50%]
-test_unittest_simplecalc.py::SimpleTest::test_multiply PASSED                                                                 [ 75%]
-test_unittest_simplecalc.py::SimpleTest::test_subtract PASSED                                                                 [100%]
+test_unittest_simplecalc.py::SimpleTest::test_add PASSED                [ 25%]
+test_unittest_simplecalc.py::SimpleTest::test_divide PASSED             [ 50%]
+test_unittest_simplecalc.py::SimpleTest::test_multiply PASSED           [ 75%]
+test_unittest_simplecalc.py::SimpleTest::test_subtract PASSED           [100%]
 
-========================================================= 4 passed in 0.04s =========================================================
+========================= 4 passed in 0.04s =========================
 ```
